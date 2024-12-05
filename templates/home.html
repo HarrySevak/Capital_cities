@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+{% for capital in capitals_list %}
+<div class='my-2'>
+<h3>{{capital.city}} is the capital of {{capital.country}}</h3>
+</div>
+{% endfor %}
+
+{% endblock content %}
