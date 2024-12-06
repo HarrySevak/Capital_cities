@@ -1,2 +1,7 @@
 /.guides
+<<<<<<< HEAD
 .settings
+=======
+.settings
+.env
+>>>>>>> 11a37924e266f76304d959c761d04008cc4a37bf
